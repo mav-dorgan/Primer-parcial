@@ -34,3 +34,64 @@ h2 {
 h3 {
     font-size: 1.5rem;
 }
+/*HEADER*/
+header {
+    width: 100%;
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+    background-color: rgb(91, 106, 156);
+}
+header h2{
+    font-size: 1.5rem;
+}
+blockquote {
+    width: 100%;
+    margin: 1rem;
+    padding: 1%;
+    font-style: oblique;
+    font-weight: light;
+    font-size: 1rem;
+}
+
+/*MENU DE NAVEGACION*/
+nav ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color:  rgb(152, 160, 185);  
+    
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: underline;
+}
+nav a:link {
+    color:rgb(250, 250, 238);
+}
+nav a:visited {
+    color:rgb(230, 226, 196);
+}
+nav a:hover {
+    font-style: italic;
+}
+nav a:active {
+    color:rgb(49, 56, 94);
+}
+/*FOOTER*/
+footer {
+    width: 100%;
+    background-color: rgb(91, 106, 156);
+    padding: 1rem;
+    margin: 0;
+    text-align: left;
+    font-size: 0.9rem;
+}
