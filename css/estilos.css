@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+/*BODY*/
+body {
+    background-image: url("../img/fondo.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: "cossette texte", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+#contenedor {
+width: 75%;
+max-width: 960px;
+margin: 0 auto;
+padding: 0;
+background-color: rgb(49, 56, 94);
+border: 1rem white double;
+color: white;
+}
+h1, h2, h3 {
+    font-family: "Abel","cossette texte", sans-serif;
+    margin-bottom: 1.5rem;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
